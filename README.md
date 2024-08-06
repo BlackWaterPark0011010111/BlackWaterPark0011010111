@@ -1,6 +1,8 @@
 
 [![Header](https://github.com/BlackWaterPark0011010111/BlackWaterPark0011010111/blob/main/assets/Rox%20Ford%20(1).jpg)](https://github.com/BlackWaterPark0011010111) 
 
+
+
 # Hello everyone and welcome! :heartbeat:
 
 ### I am an emerging Python (backend) developer with aspirations to become a cybersecurity expert.
@@ -23,8 +25,7 @@ Fundamentals of testing and debugging
 Working with libraries such as requests, pandas, numpy
 Cloud Services
 
-### 👀 ***Basics of working with cloud platforms (e.g., AWS)
-Frameworks***
+### 👀 ***Basics of working with cloud platforms (e.g., AWS) Frameworks***
 
 ### 👀 ***Fundamentals of web frameworks***
 (e.g., Django, Flask)
