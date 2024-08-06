@@ -1,3 +1,4 @@
+![Header](https://github.com/BlackWaterPark0011010111/BlackWaterPark0011010111/blob/master/newone/Rox%20Ford%20(1).jpg)(https://www.linkedin.com/in/r%D0%BEx-f%D0%BErd-26b2922a5/?locale=en_US)
 Hello everyone and welcome!
 
 I am a recent graduate from a programming course where I received training in the following areas:
