@@ -1,5 +1,5 @@
-<<<<<<< HEAD
-[![Header](https://github.com/BlackWaterPark0011010111/BlackWaterPark0011010111/blob/master/newone/Rox%20Ford%20(1).jpg)](https://www.linkedin.com/in/r%D0%BEx-f%D0%BErd-26b2922a5/?locale=en_US) 
+
+[![Header](https://github.com/BlackWaterPark0011010111/BlackWaterPark0011010111/blob/main/assets/Rox%20Ford%20(1).jpg)](https://www.linkedin.com/in/r%D0%BEx-f%D0%BErd-26b2922a5/?locale=en_US) 
 Hello everyone and welcome!
 
 I am a recent graduate from a programming course where I received training in the following areas:
@@ -36,21 +36,3 @@ Besides my professional achievements, I am passionate
 admiring and studying old buildings and their architectural features. 
 In my free time, I enjoy classical music, horseback riding, and shooting. 
 These activities help me develop concentration and precision.
-=======
-## Hi there 👋
-
-<!--
-**BlackWaterPark0011010111/BlackWaterPark0011010111** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
->>>>>>> 9af921f71eea64dd3db3bc02d9f19f9042dc92cc
