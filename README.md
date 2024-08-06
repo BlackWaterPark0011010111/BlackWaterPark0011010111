@@ -65,4 +65,6 @@ Besides coding:
 I just start learning German language and i`m speaking English without an accent with friends(Thank God!).
 Thaaank you for attention
 
-![mygif](https://tenor.com/ru/view/thank-you-thanks-thankyou-thankyougif-animated-gif-17513220857764046810)
+
+
+![mygif](https://media1.tenor.com/m/pSuK_En8qoIAAAAd/jerry-thanks.gif)
