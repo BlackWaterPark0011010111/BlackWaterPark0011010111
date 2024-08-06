@@ -1,20 +1,20 @@
 
 [![Header](https://github.com/BlackWaterPark0011010111/BlackWaterPark0011010111/blob/main/assets/Rox%20Ford%20(1).jpg)](https://github.com/BlackWaterPark0011010111) 
 
-### Hello everyone and welcome! :heartbeat:
+# Hello everyone and welcome! :heartbeat:
 
 ### I am an emerging Python (backend) developer with aspirations to become a cybersecurity expert.
 
 I am a recent graduate from a programming course where I received training in the following areas:
 Databases
 
-👀 ***Fundamentals of relational databases (SQL)***
+### 👀 ***Fundamentals of relational databases (SQL)***
 
 Using SQL for querying, inserting, updating, and deleting data
 Basics of NoSQL databases (e.g., MongoDB)
 Python 
 
-👀 ***Basic syntax and data structures***
+### 👀 ***Basic syntax and data structures***
 
 Error handling and exceptions
 Working with modules and packages
@@ -23,10 +23,10 @@ Fundamentals of testing and debugging
 Working with libraries such as requests, pandas, numpy
 Cloud Services
 
-👀 ***Basics of working with cloud platforms (e.g., AWS)
+### 👀 ***Basics of working with cloud platforms (e.g., AWS)
 Frameworks***
 
-👀 ***Fundamentals of web frameworks***
+### 👀 ***Fundamentals of web frameworks***
 (e.g., Django, Flask)
 Creating RESTful APIs
 Working with templates and routing
