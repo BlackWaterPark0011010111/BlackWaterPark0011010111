@@ -3,7 +3,7 @@
 
 
 
-# Hello everyone and welcome! :heartbeat:
+# Hello everyone and welcome! 
 
 ### I am an emerging Python (backend) developer with aspirations to become a cybersecurity expert.
 
