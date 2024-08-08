@@ -38,19 +38,19 @@ Fundamentals of developing and using RESTful APIs
 
 ### 📎My Projects:📎
 
- ✔️[Final project: "MyDiary"](https://github.com/BlackWaterPark0011010111/MyBlog)
-
- ✔️[Clasic app "CoffeeMachine" is an application that checks ingredient availability and funds, features a menu of drinks, and allows for managing coffee recipes.](https://github.com/BlackWaterPark0011010111/CoffeeMachine)
+ ✔️  [Final project: "MyDiary"](https://github.com/BlackWaterPark0011010111/MyBlog)
 
 
- ✔️[ WareHouse is an application for inventory management, tracking stock levels, and handling procurement.](https://github.com/BlackWaterPark0011010111/WareHouse)
+ ✔️  [Clasic app "CoffeeMachine" is an application that checks ingredient availability and funds, features a menu of drinks, and allows for managing coffee recipes.](https://github.com/BlackWaterPark0011010111/CoffeeMachine)
 
 
+ ✔️  [ WareHouse is an application for inventory management, tracking stock levels, and handling procurement.](https://github.com/BlackWaterPark0011010111/WareHouse)
 
- ✔️[This asynchronous Python program filters data in a JSON file by key and value, then writes the filtered data to a new file and typing, with logging configured to track execution.](https://github.com/BlackWaterPark0011010111/Asinc)
+
+ ✔️  [This asynchronous Python program filters data in a JSON file by key and value, then writes the filtered data to a new file and typing, with logging configured to track execution.](https://github.com/BlackWaterPark0011010111/Asinc)
 
 
-  ✔️[This code manages the file system using os and handles CSV files for tasks like reading, creating directories, moving files, and generating reports.](https://github.com/BlackWaterPark0011010111/IO_Manipulate)
+ ✔️  [This code manages the file system using os and handles CSV files for tasks like reading, creating directories, moving files, and generating reports.](https://github.com/BlackWaterPark0011010111/IO_Manipulate)
 
 
 
