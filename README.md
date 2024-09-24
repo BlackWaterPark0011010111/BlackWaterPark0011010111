@@ -43,6 +43,9 @@ Fundamentals of developing and using RESTful APIs
  ✔️[Clasic app "CoffeeMachine" is an application that checks ingredient availability and funds, features a menu of drinks, and allows for managing coffee recipes.](https://github.com/BlackWaterPark0011010111/CoffeeMachine)
 
 
+ ✔️[Morse code](https://github.com/BlackWaterPark0011010111/Morse)
+
+
  ✔️[ WareHouse is an application for inventory management, tracking stock levels, and handling procurement.](https://github.com/BlackWaterPark0011010111/WareHouse)
 
 
