@@ -41,6 +41,10 @@ Fundamentals of developing and using RESTful APIs
  ✔️["Melting down the musical fabric "](https://github.com/BlackWaterPark0011010111/Melting_down_the_musical_fabric.git)
 
  
+ 
+ ✔️[Removing timing and empty lines"](https://github.com/BlackWaterPark0011010111/Clean-up-the-trash)
+
+
  ✔️[Final project: "MyDiary"](https://github.com/BlackWaterPark0011010111/MyBlog)
  
 
