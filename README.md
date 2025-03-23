@@ -3,7 +3,7 @@
 
 
 ### At the moment,I’m actively working on adding moreand more content here, and I believe in quality over quantity. That’s why I’m taking the time to organize and upload my work in a way that’s clear and useful. to keep the repository up-to-date and useful. 😊 I want this repository to become a complete reflection of my progress in programming,What you see here is just a glimpse of what I’m learning and exploring—there’s a lot more in progress, so  I refactor and optimize my old solutions to make them better. I would also be grateful for any feedback or advice on how to improve the code!
-Each repo is a different topic, my attempt to understand, understand, fix in practice and finally put it all into a single picture. that I study. Sometimes they were assignments from courses, sometimes they were just my tests to understand and see my progress. It was all me writing, parsing, googling, reworking to understand how programming works. Now I have a handy knowledge base that I can look into at any time.
+### Each repo is a different topic, my attempt to understand, understand, fix in practice and finally put it all into a single picture. that I study. Sometimes they were assignments from courses, sometimes they were just my tests to understand and see my progress. It was all me writing, parsing, googling, reworking to understand how programming works. Now I have a handy knowledge base that I can look into at any time.
 
 Anyway, if anyone looks here, welcome to my world of code! 😊
 
