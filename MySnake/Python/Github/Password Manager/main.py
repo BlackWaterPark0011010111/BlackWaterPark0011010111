@@ -45,7 +45,7 @@ def main():
                 print("HERES NO SAVED PASSWORDS.")
 
         elif choice == "4":
-            print("Exit...")
+            print("EXIT...")
             break
 
         else:
