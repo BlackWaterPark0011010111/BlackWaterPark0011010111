@@ -21,18 +21,18 @@ def main():
             hashed_password = password_utils.hash_password(password)
             passwords[site] = hashed_password
             storage.save_passwords(passwords)
-            print(f"geretation password for: {site}: {password}")
+            print(f"GERETATION PASSWORD FOR: {site}: {password}")
         
         elif choice == "2":
-            site = input("enter a website name: ").strip()
+            site = input("ENTER A WESYTE NAME: ").strip()
 
             if site in passwords:
-                entered_password = input("ENTER PASSWORD: ")
+                entered_password = input("ENTER  A PASSWORD: ")
 
                 if password_utils.verify_password(entered_password, passwords[site]):
                     print("password is correct!")
                 else:
-                    print("Wrong password!")
+                    print("WRONG PASSWORD!")
             else:
                 print("heres no saved password 4 this website.")
 
