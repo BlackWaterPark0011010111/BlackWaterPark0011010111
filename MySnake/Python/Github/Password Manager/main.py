@@ -2,7 +2,7 @@ import password_utils
 import storage
 
 def main():
-    
+
     passwords = storage.load_passwords()
 
  
@@ -25,6 +25,7 @@ def main():
         
         elif choice == "2":
             site = input("enter a website name: ").strip()
+            
             if site in passwords:
                 entered_password = input("Введите пароль: ")
                 if password_utils.verify_password(entered_password, passwords[site]):
