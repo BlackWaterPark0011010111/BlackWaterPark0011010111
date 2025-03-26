@@ -4,7 +4,7 @@ import storage
 def main():
     passwords = storage.load_passwords()
 
-
+ 
     while True:
         print("\nPassword Manager")
         print("1. Create a password")
