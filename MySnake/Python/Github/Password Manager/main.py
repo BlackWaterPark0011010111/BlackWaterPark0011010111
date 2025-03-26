@@ -42,7 +42,7 @@ def main():
                 for site in passwords:
                     print(f"- {site}")
             else:
-                print("here`s no saved passwords.")
+                print("HERES NO SAVED PASSWORDS.")
 
         elif choice == "4":
             print("Exit...")
