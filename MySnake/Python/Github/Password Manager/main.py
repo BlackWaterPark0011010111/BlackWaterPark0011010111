@@ -38,7 +38,7 @@ def main():
 
         elif choice == "3":
             if passwords:
-                print("Heres ure saved passwords:")
+                print("HERES URE SAVED PASSWORD:")
                 for site in passwords:
                     print(f"- {site}")
             else:
