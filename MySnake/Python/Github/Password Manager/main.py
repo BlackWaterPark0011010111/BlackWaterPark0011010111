@@ -25,9 +25,10 @@ def main():
         
         elif choice == "2":
             site = input("enter a website name: ").strip()
-            
+
             if site in passwords:
-                entered_password = input("Введите пароль: ")
+                entered_password = input("ENTER PASSWORD: ")
+
                 if password_utils.verify_password(entered_password, passwords[site]):
                     print("password is correct!")
                 else:
