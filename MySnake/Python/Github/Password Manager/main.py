@@ -34,7 +34,7 @@ def main():
                 else:
                     print("WRONG PASSWORD!")
             else:
-                print("heres no saved password 4 this website.")
+                print("HERES NO SAVED PASSWORD 4 THIS WEBSITE.")
 
         elif choice == "3":
             if passwords:
