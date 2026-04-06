@@ -298,7 +298,7 @@ useEffect(() => {
       <h4 className="text-xl font-bold text-white mt-6 mb-4">Master & Bachelor Students</h4> 
       <ul className="space-y-2 text-gray-300">
         <li>• [Name] - Data analysis</li>
-      </ul>
+      </ul> 
     </div>
   </div>
 )}
