@@ -73,7 +73,7 @@ useEffect(() => {
       title: 'About Us', 
       image: bgImage, 
       subtitle: 'About Us',
-      description: 'Experimental Nuclear Astrophysics Group @University of Cologne & @GSI  Research Group at GSI Helmholtz Centre for Heavy Ion Research and the University of Cologne. The Experimental Nuclear Astrophysics Group at GSI and the University of Cologne is a research group that investigates the origins of elements through storage ring experiments.'
+      description: 'Experimental Nuclear Astrophysics Group @University of Cologne & GSI  Research Group at GSI Helmholtz Centre for Heavy Ion '
     },
     { id: 'team', 
       title: 'Team', 
