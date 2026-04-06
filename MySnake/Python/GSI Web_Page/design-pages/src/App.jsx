@@ -226,8 +226,8 @@ useEffect(() => {
                 backgroundAttachment: 'scroll'  // параллакс-эффект (фон не скроллится)
                 // ← ИЗМЕНЯЙТЕ: 'fixed' на 'scroll' для обычного поведения
               }}
-            />
-            
+            /> 
+             
             {/* Тёмный градиент поверх фона для читаемости текста */}
             <div className="absolute inset-0 z-10 bg-gradient-to-b from-black/70 via-black/50 to-black/80"></div>
             {/* ← ИЗМЕНЯЙТЕ градиент: from-purple-900/70, to-black/90 и т.д. */}
