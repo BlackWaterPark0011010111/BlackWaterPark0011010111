@@ -11,7 +11,7 @@ function App() {
   const [showScrollButton, setShowScrollButton] = useState(false); // показывать ли кнопку "Вверх"
   const [textVisible, setTextVisible] = useState(false);  // для появления текста с задержкой
 
-  // --- Эффект для появления меню через 4 секунды ---
+  // --- Эффект для появления меню через 4 секунды --- 
   useEffect(() => {
     // setTimeout сработает один раз через 4000 миллисекунд (4 секунды)
     const timer = setTimeout(() => {
