@@ -1,0 +1,39 @@
+body {
+    background: radial-gradient(navy, black);
+
+    color: white;
+    text-align: center;
+
+    /*
+        This is for advanced positioning
+        A VERY complex topic, but with a
+        little of well-placed code, also
+        VERY powerful!
+
+        This is just for demo purposes.
+    */
+    height: 85vh;
+    display: grid;
+    place-items: center;
+}
+
+#backend {
+    scale: -1;
+}
+
+main {
+    background: black;
+    border: 4px double;
+    border-radius: 50%;
+    color: hotpink;
+    width: 200px;
+    height: 200px;
+    display: grid;
+    place-items: center;
+    animation: rota 60s infinite;
+}
+
+@keyframes rota {
+    0% { rotate: 0deg; }
+    100% { rotate: 360deg; }
+}

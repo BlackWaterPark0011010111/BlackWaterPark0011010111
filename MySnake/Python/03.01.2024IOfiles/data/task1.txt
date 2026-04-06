@@ -1,0 +1,11 @@
+Write a Python code that asks the command line user for his/her name. Then print the following list of words as sentences in a single line, but replacing the second word with the user input name:
+
+message = ["Hello", "visitor!", "Welcome", "to", "our", "command", "line",
+           "interface.", "Please,", "contact", "us", "if", "you", "have",
+           "any", "questions."]
+You are not allowed to use the join method of the str objects.
+You are not allowed to use any of the print keyword arguments.
+You are not allowed to do any iterations.
+Your result should look like this (with your user name):
+What is your name? Janis
+Hello Janis! Welcome to our command line interface. Please, contact us if you have any questions.

@@ -1,0 +1,19 @@
+Приложение завершено
+2025-02-06 21:27:18,632 - __main__ - INFO - Приложение запущено - c:\Users\roxfo\Desktop\Python\logging\Logger\LoggingV0.2\main.py:69
+2025-02-06 21:27:18,634 - module_b - ERROR - Ошибка из функции B - c:\Users\roxfo\Desktop\Python\logging\Logger\LoggingV0.2\module_b.py:8
+2025-02-06 21:27:18,634 - module_b - CRITICAL - Критическая ошибка в функции B - c:\Users\roxfo\Desktop\Python\logging\Logger\LoggingV0.2\module_b.py:9
+2025-02-06 21:27:18,634 - asyncio - DEBUG - Using proactor: IocpProactor - C:\Users\roxfo\AppData\Local\Programs\Python\Python313\Lib\asyncio\proactor_events.py:631
+2025-02-06 21:27:20,647 - __main__ - INFO - Приложение завершено - c:\Users\roxfo\Desktop\Python\logging\Logger\LoggingV0.2\main.py:85
+2025-02-06 21:28:50,687 - __main__ - INFO - Приложение запущено - c:\Users\roxfo\Desktop\Python\logging\Logger\LoggingV0.2\main.py:137
+2025-02-06 21:28:50,688 - module_a - DEBUG - Запущена функция A - c:\Users\roxfo\Desktop\Python\logging\Logger\LoggingV0.2\module_a.py:6
+2025-02-06 21:28:50,688 - module_a - INFO - Функция A завершена - c:\Users\roxfo\Desktop\Python\logging\Logger\LoggingV0.2\module_a.py:11
+2025-02-06 21:28:50,688 - module_b - DEBUG - Запущена функция B - c:\Users\roxfo\Desktop\Python\logging\Logger\LoggingV0.2\module_b.py:6
+2025-02-06 21:28:50,688 - module_b - WARNING - Предупреждение из функции B - c:\Users\roxfo\Desktop\Python\logging\Logger\LoggingV0.2\module_b.py:7
+2025-02-06 21:28:50,688 - module_b - ERROR - Ошибка из функции B - c:\Users\roxfo\Desktop\Python\logging\Logger\LoggingV0.2\module_b.py:8
+2025-02-06 21:28:50,689 - module_b - CRITICAL - Критическая ошибка в функции B - c:\Users\roxfo\Desktop\Python\logging\Logger\LoggingV0.2\module_b.py:9
+2025-02-06 21:28:50,689 - module_b - INFO - Функция B завершена - c:\Users\roxfo\Desktop\Python\logging\Logger\LoggingV0.2\module_b.py:10
+2025-02-06 21:28:50,689 - asyncio - DEBUG - Using proactor: IocpProactor - C:\Users\roxfo\AppData\Local\Programs\Python\Python313\Lib\asyncio\proactor_events.py:631
+2025-02-06 21:28:50,690 - async_worker - INFO - Начало задачи - c:\Users\roxfo\Desktop\Python\logging\Logger\LoggingV0.2\async_worker.py:9
+2025-02-06 21:28:52,696 - async_worker - ERROR - Произошла ошибка: Что-то пошло не так! - c:\Users\roxfo\Desktop\Python\logging\Logger\LoggingV0.2\async_worker.py:18
+2025-02-06 21:28:52,697 - async_worker - INFO - Конец задачи - c:\Users\roxfo\Desktop\Python\logging\Logger\LoggingV0.2\async_worker.py:20
+2025-02-06 21:28:52,697 - __main__ - INFO - Приложение завершено - c:\Users\roxfo\Desktop\Python\logging\Logger\LoggingV0.2\main.py:153

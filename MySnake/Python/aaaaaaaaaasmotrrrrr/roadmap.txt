@@ -1,0 +1,475 @@
+Дорожная карта изучения Python
+
+1. #################################################################################################Основы синтаксиса
+  Basic Language Elements (Базовые элементы языка)
+    Variables & Data Types
+      Variables
+      Primitive Types:
+        Numbers (int, float, complex)
+        Strings (str)
+        Booleans (True/False)
+        NoneType
+      Type Casting
+    Comments & Docstrings
+      Single-line (#), Multi-line ('''...''')
+      Docstrings ("""...""")
+    Operators
+      Arithmetic (+, -, *, /, %, **, //)
+      Logical (and, or, not)
+      Comparison (==, !=, >, <, >=, <=)
+      Assignment (=, +=, -=, etc.)
+      Membership (in, not in)
+      Identity (is, is not)
+    Keywords & Built-ins
+      Reserved keywords (if, for, def, etc.)
+      Common built-in functions (print(), len(), etc.)
+  2. Data Structures
+    Sequences
+      Lists:
+        Methods (append(), pop(), sort(), etc.)
+        Slicing (list[start:stop:step])
+        List comprehensions
+    Tuples: Immutable, namedtuple
+    Strings:
+      Methods (split()-join(),format(), etc.)
+      Formatting (f-strings, str.format())
+      Unicode/encoding
+    Sets
+      Mutable (set) – union(), intersection()
+      Immutable (frozenset)
+    Dictionaries (dict)
+      Methods (keys(), values(), items())
+      Dict comprehensions
+      Specialized (defaultdict, Counter, OrderedDict)
+    Binary Data
+      bytes (immutable), bytearray (mutable)
+      memoryview
+  3. Control Flow
+    Conditionals
+      if/elif/else
+      Ternary operator (x if condition else y)
+    Loops
+      while, for (with range(), enumerate(), zip())
+      Loop control (break, continue, else)
+    Error Handling
+      try/except/finally
+      Custom exceptions
+      with (context managers)
+  4. Functions & Modularity
+    Functions
+      Definition (def,self), parameters (positional, named, *args, **kwargs)
+      Return values, lambda
+      Type hints (annotations)
+    Scopes (LEGB Rule)
+      Local → Enclosing → Global → Built-in  
+      Closures, decorators
+    Modules & Packages
+      Imports (import, from...import)
+      __name__ == "__main__"
+      PIP, virtual environments
+      Package structure (__init__.py)
+  5. Data Processing
+    Dates & Time
+      datetime, timedelta, strftime/strptime
+      Time zones (pytz)
+    Regular Expressions
+      re module: patterns, groups, search/replace
+    File Handling
+      Reading/writing (open(), read(), write())
+      File modes (r, w, a, b, +)
+      CSV/JSON/XML parsing
+    Concurrency
+      Threading (threading), multiprocessing (multiprocessing)
+      Async I/O (asyncio)
+      GIL, queues, synchronization
+2. ###################################################################Объектно-ориентированное программирование (ООП)
+Python Classes/Objects
+Основы ООП----------------------------------------BASES OOP
+Python Inheritance
+Polymorphism
+Encapsulation
+Composition
+Super()
+Method Resolution Order (MRO)
+Абстракция и интерфейсы:--------------------------Abstraction and Interfaces
+Abstract Methods
+ABC (Abstract Base Classes)
+Type Hinting
+Annotations
+Паттерны проектирования:--------------------------Design Patterns
+Factory Method
+Singleton
+Patterns (Design Patterns)
+Dependency Injection
+Принципы разработки:------------------------------Development Principles
+DRY (Don't Repeat Yourself)
+SOLID Principles
+Методы и декораторы:------------------------------Methods and Decorators
+Instance & Static Methods
+Overload Method
+Decorators with Parameters
+@wraps
+functools
+Магические методы:---------------------------------Magic Methods
+Magic Methods
+Работа с данными и коллекциями:--------------------Working with Data and 
+Iterators                                          Collections
+Counter Classes
+Collections Library (collections.Counter, 
+collections.defaultdict, 
+collections.OrderedDict)
+Data Classes
+Enum
+Геттеры и сеттеры:---------------------------------Getters and Setters
+Setters & Getters
+3. ################################################################################Алгоритмы и структуры данных
+Python Data Structures
+Dynamic Programming
+Graphs
+Greedy Algorithms
+Hashing
+
+Sorting Algorithms:
+  Bubble Sort (пузырьковая сортировка)
+  Selection Sort (сортировка выбором)
+  Insertion Sort (сортировка вставками)
+  Merge Sort (сортировка слиянием)
+  Quick Sort (быстрая сортировка)
+  Heap Sort (пирамидальная сортировка)
+  Counting Sort (сортировка подсчётом)
+  Radix Sort (поразрядная сортировка)
+
+Searching Algorithms:
+  Линейный поиск (Linear Search)
+  Бинарный поиск (Binary Search)
+  Интерполяционный поиск (Interpolation Search)
+  Экспоненциальный поиск (Exponential Search)
+Algorithmson a data Structures:
+    Стек (Stack) и Очередь (Queue) (Очереди типов FIFO и LIFO FIFO and LIFO queues)
+    Реализация стека (Stack)
+    Реализация очереди (Queue)
+    Двусторонняя очередь (Deque)
+    Приоритетная очередь (Priority Queue)
+    Связные списки (Linked Lists)
+    Односвязный список (Singly Linked List)
+    Двусвязный список (Doubly Linked List)
+    Кольцевой связный список (Circular Linked List)
+    Деревья (Trees)
+    Бинарное дерево (Binary Tree)
+    Бинарное дерево поиска (Binary Search Tree, BST)
+    Дерево отрезков (Segment Tree)
+    Дерево Фенвика (Fenwick Tree, Binary Indexed Tree)
+    Красно-чёрное дерево (Red-Black Tree)
+    АВЛ-дерево (AVL Tree)
+    Графы (Graphs)
+    Представление графов (матрица смежности, список смежности)
+    Обход в ширину (BFS)
+    Обход в глубину (DFS)
+    Алгоритм Дейкстры (Dijkstra’s Algorithm)
+    Алгоритм Беллмана-Форда (Bellman-Ford Algorithm)
+    Алгоритм Флойда-Уоршелла (Floyd-Warshall Algorithm)
+    Минимальное остовное дерево (MST: алгоритмы Прима и Краскала)
+
+Dynamic Programming:
+    Оптимизация с помощью мемоизации
+    Классические задачи (задача о рюкзаке, наибольшая общая подпоследовательность)
+
+Hashing:
+    Хеш-таблицы
+    Открытая адресация
+    Метод цепочек
+Greedy Algorithms:
+    Жадные стратегии
+    Задача о рюкзаке (Greedy Knapsack)
+    Задача о размене монет
+Recursion
+Recursive Functions
+Python Iterators  
+4####################################################################################. Работа с файлами и потоками
+  Python File Handling
+Python File Methods
+Python Read Files
+Python Write/Create Files
+Python Delete Files
+Python Streams
+Python Import OS
+Python Import Shutil
+Python Import IO
+Python BytesIO
+Python StringIO
+Python Import Path & Pathlib
+openpyxl,
+workbook, 
+load_workbook.  
+5.##############################################################################################Работа с базами данных
+ Database Operations
+1. Основы / Fundamentals
+Типы СУБД:
+• Реляционные (PostgreSQL, MySQL, Oracle) / Relational DBs
+NoSQL:
+Документные (MongoDB)
+Ключ-значение (Redis, DynamoDB)
+Графовые (Neo4j)
+Колоночные (Cassandra)
+Временные ряды (InfluxDB)
+NewSQL (CockroachDB)
+
+Ключевые концепции:
+• ACID vs BASE / ACID properties (Транзакции )
+• Первичные и внешние ключи / PK & FK
+• Нормализация (1NF-5NF) Normalization/ и Денормализация denormalisation
+• Транзакции и уровни изоляции
+
+2. Языки запросов / Query Languages
+SQL:
+• DML (SELECT/INSERT/UPDATE/DELETE)
+• JOIN (INNER, LEFT, RIGHT, FULL)/ JOIN Operations
+• Подзапросы и CTE(Common Table Expressions) / Subqueries and CTEs
+Оконные функции (OVER, PARTITION BY)
+NoSQL запросы:
+MongoDB Query Language
+Redis команды
+Cypher (Neo4j)
+
+3. Оптимизация и производительность / Performance
+Индексы (B-деревья,Bitmap, Hash) / Indexing 
+EXPLAIN-анализ / Query Analysis
+Кэширование  (Redis, Memcached) / Caching
+Партиционирование таблиц
+Масштабирование:
+Репликация (Master-Slave)
+Шардинг (горизонтальный)
+Балансировка нагрузки
+
+4. Безопасность / Security
+Роли и права / RBAC  Управление правами пользователей / User Permissions and Roles
+TDE (прозрачное шифрование) - автоматическое шифрование "на лету" на уровне СУБД / Encryption
+TDE (прозрачное шифрование СУБД):
+Колоночное шифрование
+Управление ключами (HSM)
+Защита доступа:
+SQL-инъекции  и защита / SQL Injection Prevention
+RBAC (управление правами)
+Row-Level Security
+Аудит операций
+Маскирование данных / Data Masking
+
+5. Интеграция / Integration
+ORM (SQLAlchemy, Hibernate (Java), Entity Framework (C#)
+Миграции (Alembic, Flyway) / Database Migrations
+Коннекторы и драйверы
+CDC (Change Data Capture)
+
+6. Администрирование  и Интеграция / Database Administration & Integration
+Подключение и ORM:
+Драйверы (JDBC, ODBC)
+ORM (SQLAlchemy, Hibernate)
+Миграции (Alembic, Flyway)
+Потоки данных:
+CDC (Change Data Capture)
+ETL процессы
+Администрирование:
+Резервное копирование
+Мониторинг (Prometheus, Grafana)
+Тюнинг конфигурации
+Управляемые БД (RDS, CosmosDB)
+
+7.папку назвала Some_More Спец. темы / Advanced
+OLAP vs OLTP
+Data Warehousing
+Vector DB (для AI)
+Blockchain Storage
+Распределенные системы:
+CAP теорема
+Мультирегионные deployment
+Для AI/ML:
+Векторные базы данных
+Feature Stores
+Cloud решения:
+AWS RDS/Aurora
+Azure CosmosDB
+Google Spanner
+
+##############################################################################  Обработка больших данных: Big Data Processing:
+Dask и Vaex для работы с большими 
+наборами данных,которые не помещаются 
+в память.
+##########################################################################################Data pipelines:
+Использование Apache Kafka для организации потоков данных.
+Применение Airflow для автоматизации ETL процессов.
+psycopg2 и datagrip
+Alembic 
+Python MySQL
+MySQL Get Started
+MySQL Create Database
+MySQL Create Table
+MySQL Insert
+MySQL Select
+MySQL Where
+MySQL Order By
+MySQL Delete
+MySQL Drop Table
+MySQL Update
+MySQL Limit
+MySQL Join  
+NoSQL:
+  Python MongoDB
+MongoDB Get Started
+MongoDB Create DB
+MongoDB Collection
+MongoDB Insert
+MongoDB Find
+MongoDB Query
+MongoDB Sort
+MongoDB Delete
+MongoDB Drop Collection
+MongoDB Update
+MongoDB Limit
+#################################################################################################Работа с данными:
+Statistics Module
+Math Module
+cMath Module
+Python JSON
+Python Base64
+DataGrip
+Psycopg2  
+6.########################################################################################### Работа с вебом и API
+Requests Module
+
+Фреймворки:
+  Django Tutorial
+Flask
+Blueprint Utility
+Работа с API:
+Python Import Requests
+########################################################################Безопасность и приватность:
+WhonixDRY  
+7. Визуализация и анализ данных
+  NumPy Tutorial
+Pandas Tutorial
+SciPy tutorials
+SciPy Tutorial
+Python Matplotlib
+Matplotlib Intro
+Matplotlib Get Started
+Matplotlib Pyplot
+Matplotlib Plotting
+Matplotlib Markers
+Matplotlib Line
+Matplotlib Labels
+Matplotlib Grid
+Matplotlib Subplot
+Matplotlib Scatter
+Matplotlib Bars
+Matplotlib Histograms
+Matplotlib Pie Charts  
+8. #######################################################################Машинное обучение и анализ данныхMachine learning and data analysis
+hashlib, bcrypt - для хеширования и защиты паролей.
+Работа с JWT (JSON Web Tokens) - для аутентификации в API.
+Mean Median Mode
+Standard Deviation
+Percentile
+Data Distribution
+Normal Data Distribution
+Scatter Plot
+Linear Regression
+Polynomial Regression
+Multiple Regression
+Scale
+Train/Test
+Decision Tree
+Confusion Matrix
+Hierarchical Clustering
+Logistic Regression
+Grid Search
+Categorical Data
+K-means
+Bootstrap Aggregation
+Cross Validation 
+AUC - ROC Curve
+K-nearest neighbors  
+9.####################################################################### Работа с многопоточностью и логами
+  Python Logging
+Python ThreadPool
+Python Asyncio
+Python Concurrent Futures
+Python Streams
+Python Queues  
+10.####################################################################### Работа с графическим интерфейсом
+  Python Tkinter  
+11.####################################################################### Дополнительные темы и справочники
+  Python Reference
+Python Overview
+Python Built-in Functions
+Python String Methods
+Python List Methods
+Python Dictionary Methods
+Python Tuple Methods
+Python Set Methods(frozenset - неизменяемый аналог set.)
+Python File Methods
+Python Keywords
+Python Exceptions
+Python Glossary
+Module Reference
+Random Module
+Requests Module
+Statistics Module
+Math Module
+cMath Module
+Python How To
+Remove List Duplicates
+Reverse a String
+
+
+
+Этот roadmap охватывает все важные аспекты Python, от основ до продвинутых тем, обеспечивая полный охват для изучения языка.
+ Алгоритмы и структуры данных:
+ Python Built-in Functions
+Python String Methods
+Python List Methods
+Python Dictionary Methods
+Python Tuple Methods
+Python Set Methods (frozenset - неизменяемый аналог set.)
+Дополнительные алгоритмы сортировки:
+heap sort, radix sort, shell sort.
+Структуры данных:
+Двоичные деревья поиска (BST), куча (heap), таблицы хеширования.
+Алгоритмы поиска: A*, Dijkstra (поиск в графах).
+Алгоритмы работы с графами:
+Bellman-Ford, Floyd-Warshall для поиска кратчайших путей.
+6. Многопоточность и логирование:
+Асинхронность и многозадачность:
+concurrent.futures - высокоуровневый интерфейс для работы с потоками и процессами.
+queue.Queue - для работы с очередями в многозадачных приложениях.
+Логирование:
+Настройка логирования с ротацией файлов с помощью logging.handlers.RotatingFileHandler.
+Форматирование и обработка ошибок через логирование.
+7. Тестирование и отладка:
+Модульное тестирование:
+unittest, pytest - для написания тестов.
+mock - для создания фиктивных объектов в тестах.
+Отладка:
+pdb - Python Debugger для интерактивной отладки.
+8. Производительность и оптимизация:
+Профилирование:
+cProfile, profile - для анализа производительности.
+timeit - для измерения времени выполнения кода.
+Оптимизация памяти:
+memory_profiler - для анализа потребления памяти.
+Использование C-расширений:
+Cython - для ускорения кода.
+9. Контейнеризация и виртуализация:
+Docker:
+Создание Docker-контейнеров для Python-приложений.
+Работа с docker-compose для мультиконтейнерных приложений.
+Виртуальные окружения:
+virtualenv, pipenv, conda - для создания изолированных окружений.
+10.####################################################################################CI/CD и управление проектами:
+CI/CD:
+Jenkins, GitHub Actions, GitLab CI - для автоматизации процессов развертывания и тестирования.
+Алгоритмы и структуры данных:
+Алгоритмы на графах:
+Кратчайшие пути: алгоритмы Dijkstra, Bellman-Ford, A*.
+Алгоритмы для строк:
+Алгоритм Кнута-Морриса-Пратта (KMP) для поиска подстроки в строках.
+Алгоритм Роба (Rabin-Karp) для поиска с хешированием.

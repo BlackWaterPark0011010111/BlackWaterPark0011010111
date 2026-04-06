@@ -20,15 +20,15 @@ password_manager
 │── passwords.json      # Хранилище паролей (будет создаваться автоматическипри запуске кода)
 │── README.md           # Описание что этот код делает
 ```
-В main.py — происходит взаимодействие программы с пользователем , выбор всего меню и действий, также создание пароля, проверка просмотр и сам интерфейс строк
+В main.py - происходит взаимодействие программы с пользователем , выбор всего меню и действий, также создание пароля, проверка просмотр и сам интерфейс строк
 В этом файле происходит взаимодействие с пользователем:
 Выбор действия (создание пароля, проверка, просмотр)
 Обработка пользовательского ввода
 Вызов функций для работы с паролями
 
-В password_utils.py — здесб весь мезанизм, а именно как  работать с паролями, то есть:генерация пароля- мы  создаём случайный пароль из букв, цифр и спецсимволов. Мы проверяем насколько он сложный и успешный в своей комбинацииБ мы хешируем  его с использованием и с помощью bcrypt,и также ведем сравнение введенного пароля с созраненным.
+В password_utils.py - здесб весь мезанизм, а именно как  работать с паролями, то есть:генерация пароля- мы  создаём случайный пароль из букв, цифр и спецсимволов. Мы проверяем насколько он сложный и успешный в своей комбинацииБ мы хешируем  его с использованием и с помощью bcrypt,и также ведем сравнение введенного пароля с созраненным.
 
-В ```storage.py``` — мы работаем с файлом. Мы загружает пароли из passwords.json и созраняем новые в этот же файл
+В ```storage.py``` - мы работаем с файлом. Мы загружает пароли из passwords.json и созраняем новые в этот же файл
 
 
 
@@ -56,7 +56,7 @@ with open("passwords.json", "w") as file:
 ////////////////
 ENG
 /////////////////
-
+ 
  Password Manager 
 So, basically, this is a small console application for generating, checking, and storing passwords in, like, an encrypted way. Uh, it does things like:
 
@@ -72,7 +72,7 @@ First, we install ```bcrypt```:
 
 ```pip install bcrypt```
 
-Now, why do we even need bcrypt? Well, it's used for hashing passwords. Basically, it makes them super secure, like, even if someone gets access to passwords.json, they won’t be able to see the real passwords.and,we also use it to check password strength—like, does it have uppercase letters, numbers, special characters, and stuff like that?
+Now, why do we even need bcrypt? Well, it's used for hashing passwords. Basically, it makes them super secure, like, even if someone gets access to passwords.json, they won’t be able to see the real passwords.and,we also use it to check password strength-like, does it have uppercase letters, numbers, special characters, and stuff like that?
 
 Project Structure
 so here's, like, how everything is organized:
@@ -85,16 +85,16 @@ so here's, like, how everything is organized:
 │── passwords.json      # Where passwords are stored (gets created automatically)
 │── README.md           # this file, explaining what’s going on here```
 🛠 How It Works?
-main.py — The Interface Thing
+main.py - The Interface Thing
 This file, deals with the user. It’s where you pick actions from the menu, create passwords, check them, and, view stored ones.
 
 What happens here:Choosing an action (create, check, or view passwords)Handling user inputCalling functions to do the actual password work
 
-password_utils.py — The Brains of the Operation
+password_utils.py - The Brains of the Operation
 This is where all the password magic happens. Like:
 Generating passwords → It randomly creates a password using letters, numbers, and special characters.Checking password strength → It, makes sure your password is not weak.Hashing passwords → It encrypts them using bcrypt.Comparing passwords → It checks if a given password matches the stored (hashed) one.
 
-storage.py — Saving & Loading Passwords
+storage.py - Saving & Loading Passwords
 Here, we deal with the file where passwords are stored.
 
 Loads passwords from passwords.json

@@ -1,0 +1,25 @@
+{
+  "func": [
+    {
+      "n": "sum_",
+      "desc": "sum all nums or smth idk",
+      "a": "*a",
+      "k": "no",
+      "ex": "sum_(1, 2, 3) => 6"
+    },
+    {
+      "n": "info?",
+      "desc": "shows stuff u put in",
+      "a": "nah",
+      "k": "**kinda?",
+      "ex": "info?(name='Ann', wow=100) => name: Ann, wow: 100"
+    },
+    {
+      "n": "mix?!",
+      "desc": "takes whatevs and prints idc",
+      "a": "*whocares",
+      "k": "**whatwhy",
+      "ex": "mix?!(3, 'yo', where='here') => a: (3, 'yo'), k: {'where': 'here'}"
+    }
+  ]
+}
